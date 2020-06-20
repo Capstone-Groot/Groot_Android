@@ -14,19 +14,19 @@
 ### 핵심 기능
 1. 사진을 찍는다.
 
-![](./imgs/img_0.jpg)
+![](./imgs/img_0.JPG)
 
 
 
 2. 꽃을 AI(Groot_Server 에 요청)를 통해 분석한다.
 
-![](./imgs/img_2.jpg)
+![](./imgs/img_2.JPG)
 
 3. 꽃 정보/꽃 판매처를 불러온다.
 
-   ![](./imgs/img_3.jpg)
+   ![](./imgs/img_3.JPG)
 
 4. 주변의 가까운 꽃집을 추천해준다.
 
-   ![](./imgs/img_4.jpg)
+   ![](./imgs/img_4.JPG)
 
