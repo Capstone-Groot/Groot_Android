@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="환경설정">
+        <ListPreference
+            android:key="logout"
+            android:title="로그아웃"
+            />
+<!--        <SwitchPreference-->
+<!--            android:key="vibrate"-->
+<!--            android:title="똑딱이"-->
+<!--            android:summary="똑똑똑똑똑똑똑똑똑똑똑똑"/>-->
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="275dp">
+
+                <ImageView
+                    android:id="@+id/compareImageView"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="40dp" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="275dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></androidx.viewpager.widget.ViewPager>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/flowerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b0e994"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="할미꽃 Pulsatilla koreana"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="설명"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/border_layout"
+                    android:layerType="software"></ImageView>
+
+                <TextView
+                    android:id="@+id/flowerExplain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="\t 잎은 잎자루가 길며 작은잎 5개로 이루어진 우상복엽이다. 모양으로는 쑥과 비슷하게 생겼으나 솜털덕에 헷갈일 일은 없다. 줄기부터 잎까지 개체 전체를 솜털로 뒤덮으며 꽃이 피고 열매가 열리면 이까지 전부 뒤덮는다. 열매는 6~7월에 열리는데 수과로 긴 난형이며 얼핏 보면 민들레 씨앗처럼 보이기도 한다.
+                              \n\n\t 4~5월이 되면 뿌리에서 꽃줄기가 나오며 꽃봉오리가 열리면서 점차 아래로 굽어지는 모양이 나오는데, 앞서 서술한 솜털과 함께 허리가 굽고 머리가 하얀 할머니의 모습을 연상하여 할미꽃이라는 이름이 붙여졌다고 한다. 솜털로 덮인 열매덩어리가 할머니의 흰머리처럼 보이는 점도 이름이 붙여지는데 한몫 했다. 꽃의 분위기는 화사함과는 거리가 멀며 소박하다. "
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="꽃말"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/border_layout"
+                    android:layerType="software"></ImageView>
+
+                <TextView
+                    android:id="@+id/flowerLanguage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="슬픈 추억, 충성, 사랑의 굴레"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="식물분류"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/border_layout"
+                    android:layerType="software"></ImageView>
+
+                <TextView
+                    android:id="@+id/flowerClassification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="계(Kingdom)\n문(Phylum)\n강(Class)\n목(Order)\n과(Family)\n속(Genus)\n종(Species)"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="꽃 판매처"
+                    android:textColor="#000000"
+                    android:textSize="20dp"></TextView>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/border_layout"
+                    android:layerType="software"></ImageView>
+
+                <TextView
+                    android:id="@+id/flowerStore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="김씨꽃집, 이씨꽃집, 박씨꽃집, 정씨꽃집"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:paddingBottom="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
